@@ -4,14 +4,14 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'Best_Classification_Model'
+PACKAGE_NAME = 'BestClassificationModel'
 AUTHOR = 'Ronak Bhagchandani'
 AUTHOR_EMAIL = 'rishibhagchandani123@gmail.com'
 URL = 'https://github.com/ronakkkk/best_classification_model'
 
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'It helps to find the best classification model with the accuracy based on the given dataset'
-LONG_DESCRIPTION = (HERE / "README.md").read_text()
+LONG_DESCRIPTION = ("README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
