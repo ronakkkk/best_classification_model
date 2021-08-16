@@ -1,3 +1,5 @@
+Python Package Link: https://pypi.org/project/BestClassificationModel/
+
 Best Classification Model is used for supervised learning techniques where the target data is in binary form. It selects the best model from the seven classification model based on the accuracy. 
 
 The seven classification model used in the given assignment are:
