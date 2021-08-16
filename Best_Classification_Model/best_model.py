@@ -112,7 +112,11 @@ def bestClassificationModel(X, Y):
 
     # Finding key with maximum accuracy value
     best_model = max(clf_acc, key=clf_acc.get)
-    return best_model, clf_acc[best_model]
+    
+    models = {"Logistic_Regression": logistic_regression, "Naive_Bayes_Clf": naive_bayes_clf, "Stochastic_Clf": sgclassifier, "K-Neighbors-Classifier": knn_clf,
+              "Decision_Tree_Clf": decision_tree_clf, "Random_Forest_Clf": random_forest_clf, "SVM_Clf": svm_clf}
+    
+    return models[best_model], best_model, clf_acc[best_model]
 
 
 
